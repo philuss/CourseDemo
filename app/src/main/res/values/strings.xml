@@ -25,7 +25,7 @@
 
     <string-array name="canvas_item">
         <item>变换</item>
-        <!--<item>Paint.Style</item>-->
+        <item>SplashView</item>
         <!--<item>DrawText</item>-->
         <!--<item>DrawArc</item>-->
         <!--<item>Paint.Cap</item>-->

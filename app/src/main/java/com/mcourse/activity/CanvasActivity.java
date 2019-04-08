@@ -17,6 +17,7 @@ import com.mcourse.R;
 import com.mcourse.adapter.PaintAdapter;
 import com.mcourse.bean.advanceui.PaintBean;
 import com.mcourse.widget.canvas.CanvasTransformationView;
+import com.mcourse.widget.canvas.SplashView;
 import com.mcourse.widget.paint.PaintCapView;
 import com.mcourse.widget.paint.PaintDrawArc;
 import com.mcourse.widget.paint.PaintDrawRect;
@@ -147,7 +148,7 @@ public class CanvasActivity extends Activity {
         if (title.equals(itemList.get(0))) {
             childView = new CanvasTransformationView(CanvasActivity.this);
         } else if (title.equals(itemList.get(1))) {
-            childView = new PaintStyleView(CanvasActivity.this);
+            childView = new SplashView(CanvasActivity.this);
         } else if (title.equals(itemList.get(2))) {
             childView = new PaintDrawText(CanvasActivity.this);
         } else if (title.equals(itemList.get(3))) {
