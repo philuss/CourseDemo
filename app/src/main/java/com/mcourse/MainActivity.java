@@ -11,6 +11,7 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 
+import com.mcourse.activity.BezierActivity;
 import com.mcourse.activity.CanvasActivity;
 import com.mcourse.activity.PaintActivity;
 import com.mcourse.adapter.CategoryAdapter;
@@ -90,6 +91,8 @@ public class MainActivity extends AppCompatActivity {
                             intent.setClass(MainActivity.this, PaintActivity.class);
                         } else if (title.equals(itemList.get(1))) {
                             intent.setClass(MainActivity.this, CanvasActivity.class);
+                        } else if (title.equals(itemList.get(2))) {
+                            intent.setClass(MainActivity.this, BezierActivity.class);
                         }
                         if (intent.getComponent() != null) {
                             startActivity(intent);

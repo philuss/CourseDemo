@@ -4,7 +4,7 @@
     <string-array name="demo_item">
         <item>Paint</item>
         <item>Canvas</item>
-        <item>demo03</item>
+        <item>Bezier</item>
         <item>demo04</item>
         <item>demo05</item>
         <item>demo06</item>
@@ -25,6 +25,19 @@
 
     <string-array name="canvas_item">
         <item>变换</item>
+        <item>SplashView</item>
+        <!--<item>DrawText</item>-->
+        <!--<item>DrawArc</item>-->
+        <!--<item>Paint.Cap</item>-->
+        <!--<item>Paint.Join</item>-->
+        <!--<item>Paint.PathEffect</item>-->
+        <!--<item>ColorFilter</item>-->
+        <!--<item>Shader</item>-->
+        <!--<item>ParticleView</item>-->
+    </string-array>
+
+    <string-array name="bezier_item">
+        <item>Basic</item>
         <item>SplashView</item>
         <!--<item>DrawText</item>-->
         <!--<item>DrawArc</item>-->
