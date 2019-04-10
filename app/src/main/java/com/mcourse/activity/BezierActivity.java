@@ -15,6 +15,7 @@ import android.widget.FrameLayout;
 import com.mcourse.R;
 import com.mcourse.adapter.PaintAdapter;
 import com.mcourse.bean.advanceui.PaintBean;
+import com.mcourse.widget.bezier.DragBubbleView;
 import com.mcourse.widget.bezier.PathView;
 import com.mcourse.widget.paint.PaintCapView;
 import com.mcourse.widget.paint.PaintDrawArc;
@@ -145,24 +146,7 @@ public class BezierActivity extends Activity {
         if (title.equals(itemList.get(0))) {
             childView = new PathView(BezierActivity.this);
         } else if (title.equals(itemList.get(1))) {
-            childView = new PaintStyleView(BezierActivity.this);
-        } else if (title.equals(itemList.get(2))) {
-            childView = new PaintDrawText(BezierActivity.this);
-        } else if (title.equals(itemList.get(3))) {
-            childView = new PaintDrawArc(BezierActivity.this);
-        } else if (title.equals(itemList.get(4))) {
-            childView = new PaintCapView(BezierActivity.this);
-        } else if (title.equals(itemList.get(5))) {
-            childView = new PaintJoinView(BezierActivity.this);
-        } else if (title.equals(itemList.get(6))) {
-            childView = new PaintPathEffectView(BezierActivity.this);
-        } else if (title.equals(itemList.get(7))) {
-            childView = new PaintPathEffectView(BezierActivity.this);
-        } else if (title.equals(itemList.get(8))) {
-            childView = new PaintShaderView(BezierActivity.this);
-        } else if (title.equals(itemList.get(9))) {
-            childView = new ParticleView(BezierActivity.this);
-//            childView = new SpiltView(PaintActivity.this);
+            childView = new DragBubbleView(BezierActivity.this);
         }
 
         if (null != childView) {

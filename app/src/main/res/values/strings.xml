@@ -5,7 +5,7 @@
         <item>Paint</item>
         <item>Canvas</item>
         <item>Bezier</item>
-        <item>demo04</item>
+        <item>平行控件</item>
         <item>demo05</item>
         <item>demo06</item>
     </string-array>
@@ -38,8 +38,7 @@
 
     <string-array name="bezier_item">
         <item>Basic</item>
-        <item>SplashView</item>
-        <!--<item>DrawText</item>-->
+        <item>DragBubble</item>
         <!--<item>DrawArc</item>-->
         <!--<item>Paint.Cap</item>-->
         <!--<item>Paint.Join</item>-->

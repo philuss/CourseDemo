@@ -14,6 +14,7 @@ import android.view.View;
 import com.mcourse.activity.BezierActivity;
 import com.mcourse.activity.CanvasActivity;
 import com.mcourse.activity.PaintActivity;
+import com.mcourse.activity.ParallelActivity;
 import com.mcourse.adapter.CategoryAdapter;
 import com.mcourse.bean.advanceui.CategoryBean;
 import com.mcourse.utils.PowerUtil;
@@ -41,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        PowerUtil.acquireWakeLock(this);
+//        PowerUtil.acquireWakeLock(this);
         initData();
     }
 
@@ -93,6 +94,8 @@ public class MainActivity extends AppCompatActivity {
                             intent.setClass(MainActivity.this, CanvasActivity.class);
                         } else if (title.equals(itemList.get(2))) {
                             intent.setClass(MainActivity.this, BezierActivity.class);
+                        } else if (title.equals(itemList.get(3))) {
+                            intent.setClass(MainActivity.this, ParallelActivity.class);
                         }
                         if (intent.getComponent() != null) {
                             startActivity(intent);
@@ -121,10 +124,9 @@ public class MainActivity extends AppCompatActivity {
         rvHelper.notifyAdapterDataSetChanged(dataList);
     }
 
-
     @Override
     protected void onDestroy() {
-        PowerUtil.releaseWakeLock();
+//        PowerUtil.releaseWakeLock();
         super.onDestroy();
     }
 }
