@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://E:\platform\MCourse\CourseDemo.iml" filepath="E:\platform\MCourse\CourseDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MCourse.iml" filepath="$PROJECT_DIR$/MCourse.iml" />
-      <module fileurl="file://D:\ASProjects\NetEase\CourseDemo\MCourse.iml" filepath="D:\ASProjects\NetEase\CourseDemo\MCourse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CourseDemo.iml" filepath="$PROJECT_DIR$/CourseDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://D:\ASProjects\NetEase\CourseDemo\app\app.iml" filepath="D:\ASProjects\NetEase\CourseDemo\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/materialdesign/materialdesign.iml" filepath="$PROJECT_DIR$/materialdesign/materialdesign.iml" />
       <module fileurl="file://$PROJECT_DIR$/mlib/mlib.iml" filepath="$PROJECT_DIR$/mlib/mlib.iml" />
-      <module fileurl="file://D:\ASProjects\NetEase\CourseDemo\mlib\mlib.iml" filepath="D:\ASProjects\NetEase\CourseDemo\mlib\mlib.iml" />
     </modules>
   </component>
 </project>
